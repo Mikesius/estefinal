@@ -1,0 +1,77 @@
+html {
+    background-color: black;
+}
+
+body {}
+
+
+* {
+    color: #fff;
+}
+
+
+
+
+h1 {
+
+    margin-top: 4%;
+    border-image: rgb(96, 149, 5) solid;
+    background-color: rgb(96, 149, 5);
+    outline: 4px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    white-space: nowrap;
+    padding: 6px;
+    margin-left: 44%;
+    margin-right: 44%;
+
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-left: 10px;
+        /* Ajusta el margen izquierdo en pantallas más pequeñas */
+        margin-right: 10px;
+        /* Ajusta el margen derecho en pantallas más pequeñas */
+        text-align: center;
+        /* Centra el texto en dispositivos móviles */
+    }
+}
+
+.fortnite,
+.juego {
+    display: inline-block;
+
+
+}
+
+
+
+
+
+.fortnite {
+
+
+    border: rgb(6, 209, 255) 10px solid;
+    font-size: 200%;
+    border-radius: 15px;
+    background-color: rgb(6, 209, 255);
+    outline: 4px solid rgb(255, 255, 255);
+
+
+
+}
+
+
+
+
+.juego {
+    border: rgb(255, 6, 6) 10px solid;
+    font-size: 200%;
+    border-radius: 15px;
+    background-color: rgb(255, 6, 6);
+    outline: 4px solid rgb(255, 255, 255);
+    margin-right: 10%;
+    float: right;
+
+}
